@@ -35,7 +35,7 @@ const Contact = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-7xl px-6 sm:px-16 mb-16">
           {[
             { icon: MapPin, title: 'Our Office', content: 'Ubiq, Sector - 142, Noida, Uttar Pradesh' },
-            { icon: Mail, title: 'Email', content: 'hello@ubiqtech.ai' },
+            { icon: Mail, title: 'Email', content: 'raj@ubiqtech.ai' },
           ].map((item, index) => (
             <motion.div
               key={item.title}
@@ -62,7 +62,7 @@ const Contact = () => {
             Drop us an email and we'll get back to you within 24 hours.
           </p>
           <a
-            href="mailto:hello@ubiqtech.ai"
+            href="mailto:raj@ubiqtech.ai"
             className="inline-block py-4 px-8 bg-blue-gradient font-poppins font-medium text-[18px] text-primary rounded-[10px] hover:shadow-lg transition-all duration-300 hover:scale-105"
           >
             Email Us
